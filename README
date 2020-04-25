@@ -1,0 +1,9 @@
+# How to use this project template
+
+- It's made to work with heroku
+- create in the "/" folder a folder named "database"
+- in this folder create a file "db.js" with this in:
+
+module.exports = {
+    db: 'mongodb://your url connection for mondodb'
+}
